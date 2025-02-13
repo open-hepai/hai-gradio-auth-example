@@ -34,3 +34,9 @@ python gradio_sso.py
 注意：统一认证由`login.ihep`发起回调，需要在在`redirect_uri`中配置服务器的回调地址才能正常工作，例如：`http://localhost:7860/umt/callback`
 
 浏览器打开[http://localhost:7860](http://localhost:7860)即可查看示例。
+
+
+# Contributors
+
+- luoq@ihep.ac.cn
+- zdzhang@ihep.ac.cn
