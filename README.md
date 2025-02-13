@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 + 使用统一认证登录[login.ihep.ac.cn](https://login.ihep.ac.cn)获取`client_id`、`client_secret`和`redirect_uri`。
 <div style="text-align: center;">
-    <img src="login_ihep.png.png" width="85%" align="center">
+    <img src="login_ihep.png" width="85%" align="center">
 </div>
 
 + 点击`管理应用`-`添加新的应用接入`，填写应用名称、应用描述、应用回调地址等信息，点击`保存`。
