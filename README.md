@@ -31,7 +31,7 @@ pip install -r requirements.txt
 python gradio_sso.py
 ```
 
-注意：统一认证由`login.ihep`发起回调，需要在在`redirect_uri`中配置服务器的回调地址才能正常工作，例如：`http://localhost:7860/umt/callback`
+注意：统一认证由`login.ihep`发起回调，需要在在`redirect_uri`中配置服务器的回调地址才能正常工作，例如：`http://localhost:7860/umt/callback`。在生产环境中，需要将`redirect_uri`配置为服务器的公网地址。
 
 浏览器打开[http://localhost:7860](http://localhost:7860)即可查看示例。
 
